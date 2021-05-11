@@ -1,0 +1,67 @@
+/**
+ * @name MineHot
+ * @author CreepyGeek#9664
+ * @version 1.0.0
+ * @donate https://paypal.me/IanRGibson
+ * @description Theme en raport avec minecraft avec des couleur chaude
+*/
+
+@import url("https://discordstyles.github.io/FrostedGlass/base.css");
+
+/* BlackBox tags */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+:root {
+  /* Background image variables */
+  --background-image: url('https://wallpapercave.com/wp/wp7272409.jpg');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center;
+
+  /* Popout & Modal variables */
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 5px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+
+  /* Home image variables */
+  --home-button-image: url('https://discordstyles.github.io/FrostedGlass/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --home-image: url('');
+
+  /* Brightness variables */
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.8;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.75;
+
+  /* Gradient variables */
+  --gradient-primary: 130,0,0;
+  --gradient-secondary: 215,0,0;
+  --gradient-direction: 320deg;
+
+  /* Tint variables */
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+
+  /* Other variables */
+  --window-padding: 20px;
+  --window-roundness: 10px;
+  --scrollbar-colour: rgba(255,0,0,0.5);
+  --link-colour: #00b0f4;
+  --show-gift-gif-buttons: none;
+
+  /*
+    Visit https://fonts.google.com and select one to your liking.
+    Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+  */
+  --font: 'Comic Sans Ms';
+
+  /* Do not touch */
+  --update-notice-1: none;
+}
